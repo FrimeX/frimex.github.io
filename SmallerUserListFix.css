@@ -136,8 +136,7 @@
     background: #141414;
     border-color: #191919;
 }
-
-[class="avatarContainer-28iYmV avatar-3tNQiO avatarSmall-1PJoGO avatarSpeaking-2IGMRN"], [class="border-3dQmSY speaking-WDn8Wm"], [class="border-Jn5IOt speaking-B2MXPi"] {
+[class="avatarContainer-28iYmV avatar-3tNQiO avatarSmall-1PJoGO avatarSpeaking-2IGMRN"], [class="border-3dQmSY speaking-WDn8Wm"], [class="border-Jn5IOt speaking-B2MXPi"], .avatarSpeaking-2c8-9i {
     box-shadow: inset 0 0 0 2px cyan,inset 0 0 0 3px var(--background-secondary);
     animation: boxshadow 3s linear infinite;
 }
@@ -293,7 +292,18 @@
   background-color: transparent;
   
 }
-
+/*PowerClock*/
+.powerclock {
+	margin-bottom: 5px;
+  padding-top: 2px;
+  padding-bottom: 0.25em !important;
+  border-bottom: 1px solid #2d2f32;
+  font-size: 90%;
+	animation: generic-rainbow 3s ease-in-out infinite;
+}
+.tutorialContainer-1v44GL {
+  padding-top: 0.5em;
+}
 /*Tertiary*/
 
 [aria-label="User area"], [class="section-2gLsgF"], [class="theme-dark root-1gCeng"], [class="scroller-2LSbBU auto-Ge5KZx scrollerBase-289Jih disableScrollAnchor-3V9UtP"]::-webkit-scrollbar-track, .nowPlayingColumn-2sl4cE {
