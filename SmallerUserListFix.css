@@ -136,7 +136,10 @@
     background: #141414;
     border-color: #191919;
 }
-[class="avatarContainer-28iYmV avatar-3tNQiO avatarSmall-1PJoGO avatarSpeaking-2IGMRN"], [class="border-3dQmSY speaking-WDn8Wm"], [class="border-Jn5IOt speaking-B2MXPi"], .avatarSpeaking-2c8-9i {
+.avatarSpeaking-2c8-9i {
+animation: boxshadow 3s ease-in-out infinite;
+}
+[class="avatarContainer-28iYmV avatar-3tNQiO avatarSmall-1PJoGO avatarSpeaking-2IGMRN"], [class="border-3dQmSY speaking-WDn8Wm"], [class="border-Jn5IOt speaking-B2MXPi"] {
     box-shadow: inset 0 0 0 2px cyan,inset 0 0 0 3px var(--background-secondary);
     animation: boxshadow 3s linear infinite;
 }
