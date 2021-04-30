@@ -216,7 +216,7 @@ animation: boxshadow 3s ease-in-out infinite;
 .wordmark-2iDDfm, .homeIcon-tEMBK1,.icon-22AiRD, [class="title-29uC1r base-1x0h_U size16-1P40sf"], [class="winButtonClose-1HsbF- winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs"], [class="winButtonMinMax-PBQ2gm winButton-iRh8-Z flexCenter-3_1bcw flex-1O1GKY justifyCenter-3D2jYp alignCenter-1dQNNs"], [class="item-2hkk8m"]::after, [class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1GKY directionRow-3v3tfG justifyStart-2NDFzi alignCenter-1dQNNs noWrap-3jynv6"], .pingForeground-2uAOZ3, .contents-18-Yxp  {
 	animation: generic-rainbow 5s ease-in-out infinite;
 }
-[class="icon"] .item-2hkk8m, {
+[class="icon"], .item-2hkk8m, {
 	animation: pill-rainbow 5s ease-in-out infinite;
 }
 [class="iconBadge-2wi9r4 participating-NBGDkr iconBadge-2NuvG9 base-PmTxvP"] {
