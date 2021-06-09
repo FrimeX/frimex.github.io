@@ -1,0 +1,111 @@
+/*</initial>*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-color: #0093E9;
+    background: linear-gradient(108deg, #0093E9 0%, #80D0C7 100%) fixed;
+
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    margin: 0;
+    width: 0;
+    height: 0;
+
+}
+
+/*</initial>*/
+/*<content>*/
+#overlay {
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0);
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0);
+}
+#main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/*<box>*/
+#lessgo {
+    color: #606060;
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 25%;
+    display: none;
+}
+#ui {    
+    color: #101010;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 100%;
+    display: none;
+
+}
+#box {
+    animation-play-state: paused;
+    top: 40%;
+    position: absolute;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    animation: bigboi 5s infinite forwards;
+    max-width: 147px;
+    max-height: 124px;
+    min-width: 147px;
+    min-height: 124px;
+}
+
+
+#suprise-box {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.7);
+    box-shadow: 0 0 5px 10px rgba(214, 214, 214, 0.7);
+}
+
+/*</box>*/
+/*</content>*/
+
+/*animation keyframes*/
+@keyframes bigboi {
+    from {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
